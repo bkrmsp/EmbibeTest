@@ -1,0 +1,51 @@
+.divWrapper {
+    vertical-align:center;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.divParent {
+    /* box-shadow: 5px 10px; */
+    display: inline-block;
+    text-align: center; 
+    /* border: solid red 1px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:300px;
+    min-height: 300px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: antiquewhite;
+}
+
+.divLoginFields {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.divButton {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+#btnLogin {
+    background-color: #0BA3EF;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 1rem;
+}
+
+.inputField {
+    border-radius: 1rem;
+    height: 20px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
