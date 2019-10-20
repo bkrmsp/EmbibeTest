@@ -1,5 +1,4 @@
 import React from 'react';
-import { loginUser } from '../actions';
 import Login from './Login';
 import StudentDashboard from './StudentDashboard';
 

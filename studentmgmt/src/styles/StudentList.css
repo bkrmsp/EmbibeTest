@@ -1,0 +1,31 @@
+.studentList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 200px;
+}
+
+.divStudent {
+    width: 250px;
+    grid-row-end: span 2;
+    border-radius: 0.4rem;
+    border: solid black 1px;
+}
+
+.divContent {
+    margin: 5px 0 0 5px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align:center;
+}
+
+.divDescription .divHeader {
+    display: inline-block;
+}
+
+.divRollNo {
+    margin-top:10px;
+}
+
+.divStudent:hover {
+    cursor: pointer;
+}

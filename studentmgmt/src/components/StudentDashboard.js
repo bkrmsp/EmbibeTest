@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/StudentDashboard.css';
-import {connect} from 'react-redux';
-import { fetchStudents} from '../actions';
 import StudentList from './StudentList';
 
 export default class StudentDashboard extends React.Component {
